@@ -4,7 +4,7 @@ A Power BI dashboard analysing customer churn patterns across 9,941 bank custome
 
 > **Note:** The original `.pbix` file is no longer available. This repo showcases the dashboard through a screenshot, along with a summary of the approach and key insights.
 
-![Customer Churn & Distribution Analysis Dashboard](customer-churn-dashboard.png)
+![Customer Churn Dashboard](customer-churn-dashboard.png)
 
 ---
 
@@ -16,7 +16,9 @@ To analyse customer churn behaviour within a retail banking dataset, identifying
 
 ## Data Source
 
-Publicly available bank customer churn dataset (Kaggle).
+Bank Customer Churn dataset (Maven Analytics Data Playground), originally sourced from [Kaggle](https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction). Contains account information for 10,000 customers at a European bank, including credit score, balance, product holdings, and churn status. Public Domain license.
+
+*Note: Dashboard reflects 9,941 customers after data cleaning (59 records removed during preparation).*
 
 ---
 
@@ -55,7 +57,7 @@ Publicly available bank customer churn dataset (Kaggle).
 
 \```
 ├── README.md
-│   └── customer-churn-dashboard.png
+└── customer-churn-dashboard.png
 \```
 
 ---
