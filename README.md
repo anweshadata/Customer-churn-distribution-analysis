@@ -4,6 +4,8 @@ A Power BI dashboard analysing customer churn patterns across 9,941 bank custome
 
 > **Note:** The original `.pbix` file is no longer available. This repo showcases the dashboard through a screenshot, along with a summary of the approach and key insights.
 
+![Customer Churn & Distribution Analysis Dashboard](customer-churn-dashboard.png)
+
 ---
 
 ## Project Objective
