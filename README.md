@@ -53,7 +53,6 @@ Publicly available bank customer churn dataset (Kaggle).
 
 \```
 ├── README.md
-├── screenshots/
 │   └── customer-churn-dashboard.png
 \```
 
