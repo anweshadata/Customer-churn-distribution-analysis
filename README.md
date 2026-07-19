@@ -24,27 +24,28 @@ Publicly available bank customer churn dataset (Kaggle).
 |---|---|
 | Data cleaning & transformation | Power Query |
 | Data modelling | Power BI |
-| Calculated metrics | DAX (KPI cards, churn counts) |
+| Calculated metrics | DAX (KPI cards, churn breakdowns) |
 | Dashboard development | Power BI Desktop |
-| Interactivity | Country filter/slicer |
+| Interactivity | Country filter/slicer (France, Germany, Spain) |
 
 ---
 
 ## Dashboard Overview
 
 - **Total Customers:** 9,941
-- **Churn by Country:** Distribution of churned customers across France, Germany, and Spain
-- **Churn by Gender:** Comparison of churn counts between male and female customers
-- **Customer Distribution by Country & Number of Products:** Product holding breakdown segmented by geography
+- **Customer Churn by Country:** Churn distribution shown across France, Germany, and Spain, split by exited status
+- **Customer Churn by Gender:** Male customers — 4.5K retained vs 0.9K churned; Female customers — 3.4K retained vs 1.1K churned
+- **Customer Distribution by Country & Number of Products:** Product holding (1–4 products) broken down by geography, with France holding the largest customer base
 - **Interactive Filter:** Country-level filter (France, Germany, Spain) for drill-down analysis
 
 ---
 
 ## Key Insights
 
-- Churn varies notably by country, with distribution skewed toward specific geographies
-- Gender-based churn comparison highlights differences in customer exit behaviour
-- Product distribution analysis reveals how the number of products held relates to customer geography
+- France accounts for the largest share of the customer base and the highest churn volume, though this partly reflects its larger overall population in the dataset
+- Female customers show a notably higher churn rate proportionally (~24%) compared to male customers (~17%), despite a smaller total customer base
+- Product holding is concentrated around 1–2 products per customer across all three countries, with minimal 3–4 product uptake
+- Churn is not evenly distributed by geography, suggesting country-specific retention strategies may be more effective than a uniform approach
 
 ---
 
